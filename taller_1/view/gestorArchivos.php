@@ -38,10 +38,11 @@
 
         date_default_timezone_set('America/Bogota');
         
-        $today = date('l jS \of F Y h:i:s A');
-        echo "<div style=\"margin: 30px 510px 0px; width:100%;\">$today</div>";
-
+        $today = date('Y-m-d H:i:s A');
+        echo "<div style=\"margin: 30px 565px 0px; width:100%;\">$today</div>";
+    
         ?>
-
+        <br>
+        <input class="btn btn-link" onclick="location.href='gestorPersonas.html'" type="button" value="< Gestor Personas">
    </body>
 </html>
